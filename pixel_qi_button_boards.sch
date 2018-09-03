@@ -1,0 +1,423 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pixel_qi_button_boards-cache
+EELAYER 25 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Pixel Qi Button Board"
+Date ""
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SW_Push SW1
+U 1 1 5B8D7D97
+P 3000 2950
+F 0 "SW1" H 3050 3050 50  0000 L CNN
+F 1 "B3SE" H 3000 2890 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 3000 3150 50  0001 C CNN
+F 3 "" H 3000 3150 50  0001 C CNN
+	1    3000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x08 J1
+U 1 1 5B8D7E6E
+P 7025 2950
+F 0 "J1" H 7025 3350 50  0000 C CNN
+F 1 "Conn_01x08" H 7025 2450 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53398-0871_08x1.25mm_Straight" H 7025 2950 50  0001 C CNN
+F 3 "" H 7025 2950 50  0001 C CNN
+	1    7025 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06 J2
+U 1 1 5B8D7F4F
+P 7025 4225
+F 0 "J2" H 7025 4525 50  0000 C CNN
+F 1 "Conn_01x06" H 7025 3825 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53398-0671_06x1.25mm_Straight" H 7025 4225 50  0001 C CNN
+F 3 "" H 7025 4225 50  0001 C CNN
+	1    7025 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06 J3
+U 1 1 5B8D7FCF
+P 7000 5275
+F 0 "J3" H 7000 5575 50  0000 C CNN
+F 1 "Conn_01x06" H 7000 4875 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53398-0671_06x1.25mm_Straight" H 7000 5275 50  0001 C CNN
+F 3 "" H 7000 5275 50  0001 C CNN
+	1    7000 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW2
+U 1 1 5B8D813B
+P 3600 2950
+F 0 "SW2" H 3650 3050 50  0000 L CNN
+F 1 "B3SE" H 3600 2890 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 3600 3150 50  0001 C CNN
+F 3 "" H 3600 3150 50  0001 C CNN
+	1    3600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW3
+U 1 1 5B8D8196
+P 4200 2950
+F 0 "SW3" H 4250 3050 50  0000 L CNN
+F 1 "B3SE" H 4200 2890 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 4200 3150 50  0001 C CNN
+F 3 "" H 4200 3150 50  0001 C CNN
+	1    4200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW4
+U 1 1 5B8D81E4
+P 4800 2950
+F 0 "SW4" H 4850 3050 50  0000 L CNN
+F 1 "B3SE" H 4800 2890 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 4800 3150 50  0001 C CNN
+F 3 "" H 4800 3150 50  0001 C CNN
+	1    4800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW5
+U 1 1 5B8D8237
+P 5400 2950
+F 0 "SW5" H 5450 3050 50  0000 L CNN
+F 1 "B3SE" H 5400 2890 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 5400 3150 50  0001 C CNN
+F 3 "" H 5400 3150 50  0001 C CNN
+	1    5400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW6
+U 1 1 5B8D828B
+P 6000 2950
+F 0 "SW6" H 6050 3050 50  0000 L CNN
+F 1 "B3SE" H 6000 2890 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 6000 3150 50  0001 C CNN
+F 3 "" H 6000 3150 50  0001 C CNN
+	1    6000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW8
+U 1 1 5B8D82E7
+P 3600 4250
+F 0 "SW8" H 3650 4350 50  0000 L CNN
+F 1 "B3SE" H 3600 4190 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 3600 4450 50  0001 C CNN
+F 3 "" H 3600 4450 50  0001 C CNN
+	1    3600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW9
+U 1 1 5B8D837F
+P 4200 4250
+F 0 "SW9" H 4250 4350 50  0000 L CNN
+F 1 "B3SE" H 4200 4190 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 4200 4450 50  0001 C CNN
+F 3 "" H 4200 4450 50  0001 C CNN
+	1    4200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW10
+U 1 1 5B8D83DC
+P 4800 4250
+F 0 "SW10" H 4850 4350 50  0000 L CNN
+F 1 "B3SE" H 4800 4190 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 4800 4450 50  0001 C CNN
+F 3 "" H 4800 4450 50  0001 C CNN
+	1    4800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW11
+U 1 1 5B8D8440
+P 5400 4250
+F 0 "SW11" H 5450 4350 50  0000 L CNN
+F 1 "B3SE" H 5400 4190 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 5400 4450 50  0001 C CNN
+F 3 "" H 5400 4450 50  0001 C CNN
+	1    5400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW7
+U 1 1 5B8D84A7
+P 6000 4250
+F 0 "SW7" H 6050 4350 50  0000 L CNN
+F 1 "B3SE" H 6000 4190 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 6000 4450 50  0001 C CNN
+F 3 "" H 6000 4450 50  0001 C CNN
+	1    6000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW16
+U 1 1 5B8D8521
+P 3600 5300
+F 0 "SW16" H 3650 5400 50  0000 L CNN
+F 1 "B3SE" H 3600 5240 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 3600 5500 50  0001 C CNN
+F 3 "" H 3600 5500 50  0001 C CNN
+	1    3600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW12
+U 1 1 5B8D85B0
+P 4200 5300
+F 0 "SW12" H 4250 5400 50  0000 L CNN
+F 1 "B3SE" H 4200 5240 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 4200 5500 50  0001 C CNN
+F 3 "" H 4200 5500 50  0001 C CNN
+	1    4200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW13
+U 1 1 5B8D865E
+P 4800 5300
+F 0 "SW13" H 4850 5400 50  0000 L CNN
+F 1 "B3SE" H 4800 5240 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 4800 5500 50  0001 C CNN
+F 3 "" H 4800 5500 50  0001 C CNN
+	1    4800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW14
+U 1 1 5B8D86F0
+P 5400 5300
+F 0 "SW14" H 5450 5400 50  0000 L CNN
+F 1 "B3SE" H 5400 5240 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 5400 5500 50  0001 C CNN
+F 3 "" H 5400 5500 50  0001 C CNN
+	1    5400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW15
+U 1 1 5B8D8774
+P 6000 5300
+F 0 "SW15" H 6050 5400 50  0000 L CNN
+F 1 "B3SE" H 6000 5240 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3SL-1002P" H 6000 5500 50  0001 C CNN
+F 3 "" H 6000 5500 50  0001 C CNN
+	1    6000 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2650 6825 2650
+Wire Wire Line
+	2800 2650 2800 2950
+Wire Wire Line
+	3400 2950 3400 2650
+Connection ~ 3400 2650
+Wire Wire Line
+	4000 2950 4000 2650
+Connection ~ 4000 2650
+Wire Wire Line
+	4600 2950 4600 2650
+Connection ~ 4600 2650
+Wire Wire Line
+	5200 2950 5200 2650
+Connection ~ 5200 2650
+Wire Wire Line
+	5800 2950 5800 2650
+Connection ~ 5800 2650
+Wire Wire Line
+	6200 2950 6450 2950
+Wire Wire Line
+	6450 2950 6450 2750
+Wire Wire Line
+	6450 2750 6825 2750
+Wire Wire Line
+	5600 2950 5600 3100
+Wire Wire Line
+	5600 3100 6500 3100
+Wire Wire Line
+	6500 3100 6500 2850
+Wire Wire Line
+	6500 2850 6825 2850
+Wire Wire Line
+	5000 2950 5000 3150
+Wire Wire Line
+	5000 3150 6550 3150
+Wire Wire Line
+	6550 3150 6550 2950
+Wire Wire Line
+	6550 2950 6825 2950
+Wire Wire Line
+	4400 2950 4400 3200
+Wire Wire Line
+	4400 3200 6600 3200
+Wire Wire Line
+	6600 3200 6600 3050
+Wire Wire Line
+	6600 3050 6825 3050
+Wire Wire Line
+	3800 2950 3800 3250
+Wire Wire Line
+	3800 3250 6650 3250
+Wire Wire Line
+	6650 3250 6650 3150
+Wire Wire Line
+	6650 3150 6825 3150
+Wire Wire Line
+	3200 2950 3200 3300
+Wire Wire Line
+	3200 3300 6700 3300
+Wire Wire Line
+	6700 3300 6700 3250
+Wire Wire Line
+	6700 3250 6825 3250
+Wire Wire Line
+	3400 4250 3400 4025
+Wire Wire Line
+	3400 4025 6825 4025
+Wire Wire Line
+	4000 4250 4000 4025
+Connection ~ 4000 4025
+Wire Wire Line
+	4600 4250 4600 4025
+Wire Wire Line
+	5200 4250 5200 4025
+Connection ~ 5200 4025
+Wire Wire Line
+	5800 4250 5800 4025
+Connection ~ 5800 4025
+Connection ~ 4600 4025
+Wire Wire Line
+	6200 4250 6450 4250
+Wire Wire Line
+	6450 4250 6450 4125
+Wire Wire Line
+	6450 4125 6825 4125
+Wire Wire Line
+	5600 4250 5600 4375
+Wire Wire Line
+	5600 4375 6475 4375
+Wire Wire Line
+	6475 4375 6475 4225
+Wire Wire Line
+	6475 4225 6825 4225
+Wire Wire Line
+	5000 4250 5000 4425
+Wire Wire Line
+	5000 4425 6525 4425
+Wire Wire Line
+	6525 4425 6525 4325
+Wire Wire Line
+	6525 4325 6825 4325
+Wire Wire Line
+	4400 4250 4400 4475
+Wire Wire Line
+	4400 4475 6575 4475
+Wire Wire Line
+	6575 4475 6575 4425
+Wire Wire Line
+	6575 4425 6825 4425
+Wire Wire Line
+	3800 4250 3800 4525
+Wire Wire Line
+	3800 4525 6825 4525
+Wire Wire Line
+	3400 5300 3400 5075
+Wire Wire Line
+	3400 5075 6800 5075
+Wire Wire Line
+	4000 5300 4000 5075
+Connection ~ 4000 5075
+Wire Wire Line
+	4600 5300 4600 5075
+Connection ~ 4600 5075
+Wire Wire Line
+	5200 5300 5200 5075
+Connection ~ 5200 5075
+Wire Wire Line
+	5800 5300 5800 5075
+Connection ~ 5800 5075
+Wire Wire Line
+	6200 5300 6450 5300
+Wire Wire Line
+	6450 5300 6450 5175
+Wire Wire Line
+	6450 5175 6800 5175
+Wire Wire Line
+	5600 5300 5600 5425
+Wire Wire Line
+	5600 5425 6500 5425
+Wire Wire Line
+	6500 5425 6500 5275
+Wire Wire Line
+	6500 5275 6800 5275
+Wire Wire Line
+	5000 5300 5000 5475
+Wire Wire Line
+	5000 5475 6550 5475
+Wire Wire Line
+	6550 5475 6550 5375
+Wire Wire Line
+	6550 5375 6800 5375
+Wire Wire Line
+	4400 5300 4400 5525
+Wire Wire Line
+	4400 5525 6600 5525
+Wire Wire Line
+	6600 5525 6600 5475
+Wire Wire Line
+	6600 5475 6800 5475
+Wire Wire Line
+	3800 5300 3800 5575
+Wire Wire Line
+	3800 5575 6800 5575
+$EndSCHEMATC
